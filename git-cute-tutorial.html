@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <title>可愛 GIT 教學</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            background: #fff7fb;
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+        header {
+            background: #ffb7dd;
+            padding: 30px;
+            text-align: center;
+            color: #fff;
+            font-size: 32px;
+            font-weight: bold;
+            border-bottom: 6px solid #ff8ec2;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+            border: 2px solid #ffd4e5;
+            box-shadow: 0 4px 8px rgba(255, 102, 153, 0.15);
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #ff4fa3;
+        }
+        .cmd {
+            background: #ffe6f2;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 16px;
+            border-left: 4px solid #ff8abf;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #ff5fa8;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    💖 GIT 可愛小教室 💖
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📌 Git Add ｜加入追蹤</h2>
+        <p>把檔案加入 Git 的暫存區，讓 Git 開始關注它們！</p>
+        <div class="cmd">git add .</div>
+        <div class="cmd">git add 文件名</div>
+    </div>
+
+    <div class="card">
+        <h2>📝 Git Commit ｜記錄一次版本</h2>
+        <p>將暫存區的內容正式記錄成一個版本，就像存檔點一樣！</p>
+        <div class="cmd">git commit -m "你的訊息"</div>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Git Push ｜把版本送上雲端</h2>
+        <p>將你本地的版本推到遠端（GitHub、GitLab 等）。</p>
+        <div class="cmd">git push</div>
+    </div>
+
+    <div class="card">
+        <h2>⬇️ Git Pull ｜拉取最新版本</h2>
+        <p>從遠端抓取最新資料，並合併到你的本地環境。</p>
+        <div class="cmd">git pull</div>
+    </div>
+
+    <div class="card">
+        <h2>⏪ Git Revert ｜回到某次版本（但保持歷史）</h2>
+        <p>製造一個反向 commit，用以撤銷過去版本，但保留歷史紀錄。</p>
+        <div class="cmd">git revert {commit_id}</div>
+    </div>
+
+    <div class="card">
+        <h2>🔄 Git Checkout ｜切換分支或版本</h2>
+        <p>可以切換到不同 branch，也能查看舊版本。</p>
+        <div class="cmd">git checkout main</div>
+        <div class="cmd">git checkout {commit_id}</div>
+    </div>
+
+    <div class="card">
+        <h2>🌈 Git Merge ｜合併分支</h2>
+        <p>把其他分支的內容合併到目前的分支，是進入多人協作必學指令！</p>
+        <div class="cmd">git merge feature-branch</div>
+    </div>
+
+</div>
+
+<footer>
+    🌟 由你最可愛的 Git 小幫手協助完成！ 🌟
+</footer>
+
+</body>
+</html>
